@@ -1,0 +1,44 @@
+.border{
+    margin:auto;
+    margin-top: 10vh;
+    height:300px;
+    width:300px;
+    border: 20px solid rgb(39, 187, 10);
+    background-color: rgb(253, 252, 252);
+    border-radius: 10px;
+}
+.box{
+    height: 70px;
+    width: 70px;
+    background-color:rgb(39, 187, 10);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 40px;
+    color: white;
+}
+.container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:auto auto auto;
+    gap: 20px;
+    place-content: center;
+}
+button, .div{
+    margin-left: 42%;
+    margin-top: 10px;
+    
+}
+button{
+    font-size: large;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(39, 187, 10);
+    border: none;
+}
+.div{
+    color: rgb(39, 187, 10);
+    font-size: large;
+
+}
